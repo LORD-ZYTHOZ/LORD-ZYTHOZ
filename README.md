@@ -260,7 +260,7 @@ gantt
 <br/>
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=LORD-ZYTHOZ&theme=tokyonight&no-frame=true&column=6&margin-w=8&margin-h=8" width="92%"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=LORD-ZYTHOZ&theme=tokyonight&hide_border=true&stroke=00d4ff&ring=a855f7&fire=f59e0b&currStreakLabel=00d4ff&sideLabels=8892b0&dates=8892b0&background=0d1117" width="60%"/>
 </div>
 
 ---
