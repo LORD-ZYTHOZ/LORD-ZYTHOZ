@@ -85,27 +85,9 @@ graph TD
 ## 🚀 Projects
 
 <details open>
-<summary><b>🔬 Core Builds — systems I designed from scratch</b></summary>
+<summary><b>🔬 Core Builds — systems I designed and built from scratch</b></summary>
 
 <br/>
-
-```mermaid
-graph LR
-    ROOT["My Builds"] --> T["🧠 Theorex"]
-    ROOT --> SA["📊 Sovereign-Allocator"]
-    ROOT --> GQ["🥇 GoldQuant"]
-    ROOT --> TQ["⚡ turboquant-node"]
-    ROOT --> GP["🌶️ ghost-pepper"]
-    ROOT --> CH["🔔 clawhip"]
-
-    style ROOT fill:#0a192f,color:#00d4ff,stroke:#00d4ff
-    style T fill:#0d1b2a,color:#a855f7,stroke:#a855f7
-    style SA fill:#0d1b2a,color:#f59e0b,stroke:#f59e0b
-    style GQ fill:#0d1b2a,color:#f59e0b,stroke:#f59e0b
-    style TQ fill:#0d1b2a,color:#10b981,stroke:#10b981
-    style GP fill:#0d1b2a,color:#ef4444,stroke:#ef4444
-    style CH fill:#0d1b2a,color:#00d4ff,stroke:#00d4ff
-```
 
 <table>
   <thead>
@@ -122,29 +104,24 @@ graph LR
       <td><code>TypeScript</code> <code>pgvector</code> <code>Postgres</code></td>
     </tr>
     <tr>
+      <td><a href="https://github.com/LORD-ZYTHOZ/turboquant-node"><b>🔬 turboquant-node</b></a></td>
+      <td>TurboQuant (ICLR 2026) for Node.js/Bun via napi-rs. MLX KV cache for Qwen3 on Apple Silicon — 32k → 128k context. 7 research findings, 3 production bugs fixed.</td>
+      <td><code>Rust</code> <code>napi-rs</code> <code>Python</code> <code>MLX</code></td>
+    </tr>
+    <tr>
       <td><a href="https://github.com/LORD-ZYTHOZ/Sovereign-Allocator"><b>📊 Sovereign-Allocator</b></a></td>
       <td>Autonomous hedge fund architecture. Nova as CEO, Ministral as private reasoning core, shadow-testing pipeline, always-online agents with auto-restart on failure.</td>
       <td><code>Python</code> <code>Gemini</code> <code>Claude</code></td>
     </tr>
     <tr>
-      <td><a href="https://github.com/LORD-ZYTHOZ/GoldQuant"><b>🥇 GoldQuant</b></a></td>
-      <td>Quantitative XAUUSD trading framework — regime detection, signal aggregation, and agent-driven order execution through MetaTrader 5.</td>
-      <td><code>Python</code> <code>MetaTrader 5</code></td>
+      <td><a href="https://github.com/LORD-ZYTHOZ/regime-aware-strategy-allocator-public"><b>⚡ Regime-Aware Allocator</b></a></td>
+      <td>QP-optimal multi-strategy capital allocator with regime-aware risk aversion. EWMA covariance, adaptive gamma, OSQP solver, live bridge, and Telegram alerts.</td>
+      <td><code>Python</code> <code>OSQP</code> <code>Pydantic</code></td>
     </tr>
     <tr>
-      <td><a href="https://github.com/LORD-ZYTHOZ/turboquant-node"><b>⚡ turboquant-node</b></a></td>
-      <td>TurboQuant (ICLR 2026) for Node.js/Bun via napi-rs. MLX KV cache for Qwen3 on Apple Silicon. 5x compression at 3-bit with 99.5% attention fidelity. Production bug fixes included.</td>
-      <td><code>Python</code> <code>Bun</code> <code>napi-rs</code> <code>MLX</code></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/LORD-ZYTHOZ/ghost-pepper"><b>🌶️ ghost-pepper</b></a></td>
-      <td>Hold-to-talk STT for macOS. 100% local — WhisperKit transcription + local LLM cleanup. Hold Control to record, release to transcribe and paste. Zero cloud dependency.</td>
-      <td><code>Swift</code> <code>WhisperKit</code> <code>Ollama</code></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/LORD-ZYTHOZ/clawhip"><b>🔔 clawhip</b></a></td>
-      <td>Event-to-channel notification router. Bypasses gateway sessions to prevent context pollution in long-running agent pipelines. Keeps agents clean.</td>
-      <td><code>Python</code> <code>WebSockets</code></td>
+      <td><a href="https://github.com/LORD-ZYTHOZ/poly-oracle-edge-public"><b>🎯 Poly Oracle Edge</b></a></td>
+      <td>Polymarket 5-min BTC binary scanner. Gaussian oracle edge detection with fractional-Kelly sizing, CLOB execution, and automated market filtering.</td>
+      <td><code>Python</code> <code>asyncio</code> <code>Polymarket CLOB</code></td>
     </tr>
   </tbody>
 </table>
@@ -297,4 +274,3 @@ gantt
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a192f,60:0d1b2a,100:0d0d0d&height=140&section=footer&animation=fadeIn" width="100%"/>
 </div>
-
